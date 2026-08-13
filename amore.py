@@ -11,6 +11,7 @@ Sono fiera di te, di quello che sei e quello che diventarai. Non vedo l'ora di p
 Immagino le domeniche a riposarci insieme, a coccolarci, ma anche fare la spesa, pulire la casa insieme.
 
 Immagino le sere dopo le lunghe giornate a lavoro, ad abbracciarci, a consolarci e soprattutto a ridere insieme.
+
 Spero di poter avere il privilegio di passare la mia vita con te.
 Ti auguro il meglio amore mio
 **Ti amo**
