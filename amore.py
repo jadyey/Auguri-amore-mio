@@ -1,6 +1,6 @@
 import streamlit as st
 st.set_page_config(page_title="Buon Compleanno tato 🩷", page_icon= "🎂")
-st.title("Tanti auguri amore mio 💕  🎂🎂🎂")
+st.title("Tanti auguri amore mio 💕  🎂🎂")
 #canzone st.audio("")
 st.divider()
 st.markdown("""
@@ -13,7 +13,10 @@ Immagino le domeniche a riposarci insieme, a coccolarci, ma anche fare la spesa,
 Immagino le sere dopo le lunghe giornate a lavoro, ad abbracciarci, a consolarci e soprattutto a ridere insieme.
 
 Spero di poter avere il privilegio di passare la mia vita con te.
+
 Ti auguro il meglio amore mio
+
 **Ti amo**
+
 *la tua Giada*
 """)
