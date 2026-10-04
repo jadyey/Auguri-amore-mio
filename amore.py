@@ -115,7 +115,7 @@ Vorrei:
 
 🏡 costruire una casa tutta nostra
 
-❤️ e soprattutto, continuare a scegliere te ogni giorno.
+❤️ e soprattutto, stare con te
 """)
 
 with st.expander("💌 C'è una cosa che voglio dirti..."):
