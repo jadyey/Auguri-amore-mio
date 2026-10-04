@@ -22,3 +22,11 @@ Ti auguro il meglio amore mio
 
 *la tua Giada*
 """)
+with st.expander("💌 C'è una cosa che voglio dirti..."):
+    st.write("""
+    Se sei arrivato fin qui, sappi che...
+    
+    sceglierei te altre mille volte.
+    
+    Buon compleanno amore mio ❤️
+    """)
