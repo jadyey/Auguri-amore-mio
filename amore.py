@@ -2,18 +2,57 @@ import streamlit as st
 from datetime import date
 st.markdown("""
 <style>
-h1 {
-    text-align: center;
-    color: #d63384;
-}
 
-h2, h3 {
-    color: #c2185b;
-}
+    /* Sfondo */
+    .stApp {
+        background-color: #fff0f5;
+    }
 
-.stImage img {
-    border-radius: 15px;
-}
+    /* Titolo principale */
+    h1 {
+        color: #d63384;
+        text-align: center;
+        font-family: Georgia, serif;
+    }
+
+    /* Titoli delle sezioni */
+    h2, h3 {
+        color: #c2185b;
+        font-family: Georgia, serif;
+    }
+
+    /* Testo */
+    p {
+        color: #5c3a46;
+        font-size: 17px;
+        line-height: 1.7;
+    }
+
+    /* Immagini arrotondate */
+    .stImage img {
+        border-radius: 20px;
+    }
+
+    /* Divider */
+    hr {
+        border-color: #f3b6cc;
+    }
+
+    /* Pulsanti */
+    .stButton > button {
+        background-color: #d63384;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        padding: 10px 25px;
+        font-size: 16px;
+    }
+
+    .stButton > button:hover {
+        background-color: #c2185b;
+        color: white;
+    }
+
 </style>
 """, unsafe_allow_html=True)
 
