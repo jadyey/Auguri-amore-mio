@@ -10,20 +10,20 @@ st.markdown("""
 
     /* Titolo principale */
     h1 {
-        color: #d63384;
+        color: #000000;
         text-align: center;
         font-family: Georgia, serif;
     }
 
     /* Titoli delle sezioni */
     h2, h3 {
-        color: #c2185b;
+        color: #000000;
         font-family: Georgia, serif;
     }
 
     /* Testo */
     p {
-        color: #5c3a46;
+        color: #000000;
         font-size: 17px;
         line-height: 1.7;
     }
