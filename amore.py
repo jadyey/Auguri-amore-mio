@@ -19,7 +19,7 @@ st.markdown("""
 st.set_page_config(page_title="Buon Compleanno tato 🩷", page_icon= "🎂")
 st.title("Tanti auguri amore mio 💕  🎂🎂")
 st.audio("Paramore_StillIntoYou.mp3")
-st.image("yahya.jpeg", caption="Noi due <3", width=500)
+st.image("yahya.jpeg", caption="Noi due <3", width=700)
 st.balloons()
 st.divider()
 st.markdown("""
