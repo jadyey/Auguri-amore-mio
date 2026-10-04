@@ -47,8 +47,11 @@ data_inizio = date(2026, 9, 3)
 oggi = date.today()
 
 giorni = (oggi - data_inizio).days
+data_risentiti = date(2026, 1, 29)
+giorni_risentiti = (date.today() - data_risentiti).days
 
 st.markdown(f"""
+### 💌 Ci risentiamo da {giorni_risentiti} giorni
 ### ❤️ Insieme da {giorni} giorni ❤️
 
 E spero che questi siano solo i primi di tantissimi.
