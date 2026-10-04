@@ -1,7 +1,7 @@
 import streamlit as st
 st.set_page_config(page_title="Buon Compleanno tato 🩷", page_icon= "🎂")
 st.title("Tanti auguri amore mio 💕  🎂🎂")
-st.audio("Paramore - Still Into You HQ (Audio)")
+st.audio("Paramore_StillIntoYou.mp3")
 st.image("yahya.jpg", caption="Noi due", width=300)
 st.divider()
 st.markdown("""
