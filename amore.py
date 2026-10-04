@@ -1,4 +1,5 @@
 import streamlit as st
+from datetime import date
 st.markdown("""
 <style>
     .stApp {
@@ -39,11 +40,19 @@ Ti auguro il meglio amore mio
 
 *la tua Giada*
 """)
+data_inizio = date(2026, 9, 3)
+oggi = date.today()
+
+giorni = (oggi - data_inizio).days
+
+st.markdown(f"""
+### ❤️ Insieme da {giorni} giorni ❤️
+
+E spero che questi siano solo i primi di tantissimi.
+""")
 with st.expander("💌 C'è una cosa che voglio dirti..."):
     st.write("""
-    Se sei arrivato fin qui, sappi che...
-    
-    sceglierei te altre mille volte.
+    Se sei arrivato fin qui, sappi che sceglierei te altre mille volte.
     
     Buon compleanno amore mio ❤️
     """)
