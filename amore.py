@@ -98,25 +98,34 @@ E spero che questi siano solo i primi di tantissimi.
 """)
 st.divider()
 
-st.header("🏡 Il nostro futuro")
+st.markdown(
+    "<h2 style='text-align:center;'>🏡 Il nostro futuro</h2>",
+    unsafe_allow_html=True
+)
 
 st.markdown("""
-Vorrei:
+<div style="
+    background-color:#ffe0eb;
+    padding:25px;
+    border-radius:20px;
+">
 
-🛒 fare la spesa insieme la domenica
+<p>Vorrei...</p>
 
-🍝 cucinare insieme
+<p>🛒 Fare la spesa insieme la domenica</p>
 
-🛋️ passare le serate abbracciati sul divano
+<p>🍝 Cucinare insieme</p>
 
-✈️ viaggiare insieme
+<p>🛋️ Passare le serate abbracciati sul divano</p>
 
-🐶 avere un piccolo pelosetto
+<p>✈️ Viaggiare insieme</p>
 
-🏡 costruire una casa tutta nostra
+<p>🏡 Costruire una casa tutta nostra</p>
 
-❤️ e soprattutto, stare con te
-""")
+<p>❤️ E soprattutto continuare a stare con te ogni giorno.</p>
+
+</div>
+""", unsafe_allow_html=True)
 
 with st.expander("💌 C'è una cosa che voglio dirti..."):
     st.write("""
